@@ -1,0 +1,16 @@
+
+.bold1{
+    color: black !important;
+}
+/* .toleft{
+    position: relative;
+    left: 100px;
+} */
+
+@media screen and (min-width:999px) {
+    .toleft{
+        position: relative;
+        left: 100px;
+    }
+}
+

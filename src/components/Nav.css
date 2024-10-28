@@ -1,0 +1,26 @@
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  all: unset;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.selected {
+  border-bottom: solid green 3px;
+  padding-bottom: 10px;
+}
+
+.link {
+  all: unset;
+}
+
+.link:hover {
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 4px 4px 6px;
+}

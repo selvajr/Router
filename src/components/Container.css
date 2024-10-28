@@ -1,0 +1,5 @@
+.cardnew {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+}

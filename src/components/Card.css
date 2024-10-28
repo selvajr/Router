@@ -1,0 +1,36 @@
+.cartnew {
+    width: 260px;
+    color: black;
+    border: solid black 1px;
+    border-radius: 15px;
+    margin: 5px;
+    background: white !important;
+    box-shadow: 4px 4px 6px;
+    height: 240px;
+
+    img {
+        margin-top: 3px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+}
+
+
+
+.cartnew:hover {
+    transition-duration: 0.2s;
+    width: 270px;
+    height: 250px;
+
+    img {
+        transition-duration: 0.2s;
+        height: 160px;
+        width: 260px;
+    }
+}
+
+#by {
+    color: rgba(0, 0, 0, 0.596);
+    font-size: smaller;
+}
